@@ -18,3 +18,44 @@ It is designed to bring joy and amusement to programmers providing a one of a ki
 ### Important Note:
 While it's fun to explore the concept of a "Troll" programming language, it's crucial to remember that it's not suitable for real software development. When it comes to real projects, it's important to use appropriate programming languages and maintain a serious and professional codebase.
 
+
+
+```
+### The default operations will be replaced by:
+"!"  = NOPE
+"-"  = -OMG
+"+"  = +OMG
+"=" = IGUAL
+"==" = IGUAL?
+"!=" = NOPE?
+"||" = 🐶
+"&&" = 🐱
+">" = >:
+"<" = <:
+"*" = •
+"/" = ÷
+```
+
+```
+PROGRAM = { STATEMENT } ;
+BLOCK = "ಠ_ಠ", { STATEMENT }, "ಠ_ಠ" ;
+STATEMENT = ( λ | ASSIGN | PRINT | IF | FOR | VAR), "<3" ;
+ASSIGN = IDENTIFIER, "IGUAL", BOOLEAN EXPRESSION, "<3" ;
+PRINT = "YELL", "ʕ•ᴥ•ʔ", BOOLEAN EXPRESSION, "ʕ•ᴥ•ʔ", "<3" ;
+IF = "LOL", BOOLEAN EXPRESSION, BLOCK, { "ROFL", BLOCK } ;
+FOR = "EPICFAIL", ASSIGN, "<3", BOOLEAN EXPRESSION, "<3", ASSIGN, BLOCK ;
+VAR = "MAGIC", IDENTIFIER, ( "InTiGeR" | "StRiNg" ), ( λ | "IGUAL", BOOLEAN EXPRESSION ), "<3" ;
+BOOLEAN EXPRESSION = BOOLEAN TERM, { "🐶" BOOLEAN TERM } ;
+BOOLEAN TERM = RELATIONAL EXPRESSION, { "🐱", RELATIONAL EXPRESSION } ;
+RELATIONAL EXPRESSION = EXPRESSION, { ("IGUAL?" | ">:" | "<:"), EXPRESSION } ;
+EXPRESSION = TERM, { ("+OMG" | "-OMG" | "." ), TERM } ;
+TERM = FACTOR, { ("•" | "÷"), FACTOR } ;
+FACTOR = NUMBER | STRING | IDENTIFIER | (("+OMG" | "-OMG" | "NOPE"), FACTOR) | "ʕ•ᴥ•ʔ", BOOLEAN EXPRESSION, "ʕ•ᴥ•ʔ" | SCAN ;
+SCAN = "©", "ʕ•ᴥ•ʔ", "ʕ•ᴥ•ʔ" ;
+IDENTIFIER = LETTER, { LETTER | DIGIT | "_" } ;
+NUMBER = DIGIT, { DIGIT } ;
+STRING = ( " | ' ), { λ | LETTER | DIGIT }, ( " | ' ) ;
+LETTER = ( a | ... | z | A | ... | Z ) ;
+DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
+```
+
