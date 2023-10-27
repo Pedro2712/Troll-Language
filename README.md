@@ -19,6 +19,26 @@ It is designed to bring joy and amusement to programmers providing a one of a ki
 While it's fun to explore the concept of a "Troll" programming language, it's crucial to remember that it's not suitable for real software development. When it comes to real projects, it's important to use appropriate programming languages and maintain a serious and professional codebase.
 
 
+# EBMF
+
+### Grammar
+
+```
+# General grammatical elements and rules:
+#
+# * Strings with double quotes (") denote KEYWORDS
+# * Upper case names (NAME) denote rule names
+# * e1, e2
+#   Match e1, then match e2
+# * e1 | e2
+#   Match e1 or e2
+# * { e }
+#   Match zero or more occurrences of e.
+# * [ e ]
+#   Match one or none occurrences of e.
+# * ( e )
+#   Match expression.
+```
 
 ```
 ### The default operations will be replaced by:
@@ -36,6 +56,8 @@ While it's fun to explore the concept of a "Troll" programming language, it's cr
 "/" = ÷
 ```
 
+
+### Rule
 ```
 PROGRAM = { STATEMENT } ;
 BLOCK = "ಠ_ಠ", { STATEMENT }, "ಠ_ಠ" ;
@@ -59,3 +81,5 @@ LETTER = ( a | ... | z | A | ... | Z ) ;
 DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
 ```
 
+# Reference
+- [Python Grammar](https://docs.python.org/3/reference/grammar.html?highlight=grammar)
