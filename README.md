@@ -61,12 +61,12 @@ While it's fun to explore the concept of a "Troll" programming language, it's cr
 ```
 PROGRAM = { STATEMENT } ;
 BLOCK = "ಠ_ಠ", { STATEMENT }, "ಠ_ಠ" ;
-STATEMENT = ( λ | ASSIGN | PRINT | IF | FOR | VAR), "<3" ;
-ASSIGN = IDENTIFIER, "IGUAL", BOOLEAN EXPRESSION, "<3" ;
-PRINT = "YELL", "ʕ•ᴥ•ʔ", BOOLEAN EXPRESSION, "ʕ•ᴥ•ʔ", "<3" ;
+STATEMENT = ( λ | ASSIGN | PRINT | IF | FOR | VAR) ;
+ASSIGN = IDENTIFIER, "IGUAL", BOOLEAN EXPRESSION ;
+PRINT = "YELL", "ʕ•ᴥ•ʔ", BOOLEAN EXPRESSION, "ʕ•ᴥ•ʔ" ;
 IF = "LOL", BOOLEAN EXPRESSION, BLOCK, { "ROFL", BLOCK } ;
 FOR = "EPICFAIL", ASSIGN, "<3", BOOLEAN EXPRESSION, "<3", ASSIGN, BLOCK ;
-VAR = "MAGIC", IDENTIFIER, ( "InTiGeR" | "StRiNg" ), ( λ | "IGUAL", BOOLEAN EXPRESSION ), "<3" ;
+VAR = "MAGIC", IDENTIFIER, ( "InTiGeR" | "StRiNg" ), ( λ | "IGUAL", BOOLEAN EXPRESSION ) ;
 BOOLEAN EXPRESSION = BOOLEAN TERM, { "🐶" BOOLEAN TERM } ;
 BOOLEAN TERM = RELATIONAL EXPRESSION, { "🐱", RELATIONAL EXPRESSION } ;
 RELATIONAL EXPRESSION = EXPRESSION, { ("IGUAL?" | ">:" | "<:"), EXPRESSION } ;
