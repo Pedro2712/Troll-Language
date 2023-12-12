@@ -26,7 +26,6 @@ class Tokenizer:
         self.next = Token(type(source), source)
         self.reserved_words = {
                                 "YELL": "Println",
-                                "Scanln": "Scanln",
                                 "LOL": "if",
                                 "ROFL": "else",
                                 "EPICFAIL": "for",
@@ -37,6 +36,7 @@ class Tokenizer:
                                 "NOPE": "not",
                             }
         self.token_map = {
+                            "©": "Scanln",
                             "+OMG": "plus",
                             "-OMG": "minus",
                             "IGUAL?": "equalEqual",
